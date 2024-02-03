@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body-header{
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url('macbook_mouse.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#list{
+    margin-top:-20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#list a{
+  color: white;  
+  text-decoration: none ;
+}
+name {
+    color: white;
+    font-size: 60px;
+    margin-top: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+img{
+    height: 20px;;
+}
+#list img{
+    color:rgb(189, 189, 199);
+    cursor: pointer;
+}
+#list a:hover{
+    color:rgb(189, 189, 199);
+    cursor: pointer;
+}
+li{
+    margin-top:20px;
+    padding:15px;
+    font-size: large;
+}
+photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+photo img{
+    height: 200px;
+    position: relative;
+    border: white 2px;
+    border-radius: 50%;
+    margin-top: -100px;
+}
+.about-me{
+    border:20px solid white;
+    /* position:relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.me{
+    width: 80vw;
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 30px;
+    font-weight: bolder;
+}
+
+#skills-flexbox{
+    height: auto;
+    display: flex;
+    width: 60vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skillshead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding-top: 40px;
+    position: relative;
+    /* left:45%; */
+    margin-bottom: 80px;
+}
+#skills-flexbox>div{
+    width:150px;
+    height: 80px;
+    /* background-color:rgb(145, 207, 145); */
+    
+}
+#skills-flexbox p{
+    margin:auto;
+}
+.skill-wrap{
+    background-color: #e7e9e9;
+}
+.make-box{
+    height: 20px;
+    width: 100px;
+    border: 2px solid black;
+    padding-left: 6px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.Java{
+    background: linear-gradient(90deg, #3498db 60%, transparent 40%);
+}
+.HTML{
+    background: linear-gradient(90deg, #26bcab 80%, transparent 30%);
+}
+.CSS{
+    background: linear-gradient(90deg, #c345d9 60%, transparent 30%);
+}
+.JavaScript{
+    background: linear-gradient(90deg, #47b85a 60%, transparent 30%);
+}
+.React{
+    background: linear-gradient(90deg, #e7b921 20%, transparent 20%);
+}
+.MySQL{
+    background: linear-gradient(90deg, #abd017 60%, transparent 30%);
+}
+.OS{
+    background: linear-gradient(90deg, #d51e6d 80%, transparent 30%);
+    
+}
+.German{
+    background: linear-gradient(90deg, #cc6521 20%, transparent 20%);
+   
+}
+.portfolio{
+    margin-top: -30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.portfolio img{
+    height: 220px;
+    padding: 40px;
+}
+#contact{
+    height: 550px;
+    background: linear-gradient(90deg,rgb(54, 54, 124),rgb(33, 33, 154));
+}
+.contact-Title{
+    color:white;
+    font-size: 40px;
+    padding-top: 40px;
+    position: absolute;
+    left:45%;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact div{
+    height: 300px;
+    width: 400px;
+}
+#contact h2{
+    color: white;
+}
+#contact p{
+    color: rgb(226, 214, 214);
+    margin-left: 20px;
+    display: inline-block;
+}
+#contact h2{
+    margin: 20px;
+}
+.inline{
+    display: inline;
+}
+input{
+    background-color: transparent;
+    padding: 25px;
+    border:none;
+    border-bottom: 2px solid white;
+    outline:none;
+    color:rgb(226, 214, 214);
+}
+
+button{
+    background-color: transparent;
+    padding: 10px;
+    border:none;
+    border: 2px solid white;
+    display: block;
+    margin-top: 50px;
+    color:rgb(226, 214, 214);
+}
+#contact-list{
+    margin-top:-100px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+#contact-list{
+  color: white;  
+  text-decoration: none ;
+}
+#contact-list a{
+    color: white;  
+    text-decoration: none ;
+  }
+.header{
+    font-size:35px;
+    text-align:center;
+    margin-top:50px;
+    color:#35357C;
+    font-weight: bold;
+}
+.leftbox{
+    width:30vw;
+    /* border:2px solid black; */
+    height:auto;
+    margin-bottom:150px;
+}
+.box-flexbox{
+    display:flex;
+    justify-content:space-between;
+}
+.rightbox{
+    width:28vw;
+    /* border:2px solid black; */
+    height:auto;
+    margin-top:150px;
+    
+}
+
+.workborder{
+    display:flex;
+    justify-content:space-around;
+    width:70vw;
+    /* border:2px solid black; */
+    margin-top:30px;
+}
+
+.flexbox{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 50px;
+}
+.work-experience1{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+.work-experience2{
+    display:flex;
+    flex-direction:column-reverse;
+}
+.line{
+    height:500px;
+    width:1px;
+    border-left:3px dotted  black;
+    margin-top:80px;
+}
+.dot{
+    height:8px;
+    width:8px;
+    border:3px solid black;
+    border-radius:50%;
+    background-color:black;
+    margin-bottom:155px;
+}
+
+.airoplane{
+    position:sticky;
+    transform: rotate(90deg);
+    top:300px;
+    margin-top:-650px;
+}
+.hidden {
+        display: none;
+}
+.institute{
+    color:orange;
+    font-size:large;
+}
+.degree-name{
+    color:#35357C;
+    font-size:25px;
+    font-weight: bold;
+}
+.blue{
+    text-color:#35357C;
+}
+.icon{
+    height: 50px;
+}
+.boxcontent{
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+.certificationwrap{
+    background-color: #e7e9e9;
+    padding: 30px;
+}
+#contact span{
+    margin-left: 20px;
+    display: block;
+}
+
+@media screen and (max-width:600px){
+    .work-experience1{
+        display:none;
+    }
+    .rightbox{
+        width:60vw;
+        margin-top:5px;
+    }
+    .line{
+        left:80px;
+        height:350px;
+        width:1px;
+        border-left:3px dotted  black;
+        margin-top:35px;
+    }
+    .hidden{
+        display:block;
+        width:60vw;
+        /* border:2px solid black; */
+         height:auto;
+        margin-top:5px;
+	}
+    .dot{
+        margin-bottom:105px;
+    }
+}
